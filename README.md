@@ -1,19 +1,15 @@
-# Web Guard
+# Web Guard (Chrome Extension)
 
 ## Contents:
-1. [Extension Link](#extension-link) (Currently Unavailable)
-2. [About](#about)
+1. [About](#about)
+2. [Extension Link](#extension-link) (currently unavailable)
 3. [Project Wiki](#project-wiki)
 
-## Extension Link:
-The extension will be available in the [Chome Web Store]().
-
 ## About:
-Web Guard is a chrome extension designed to allow users to set time limits or block websites.
+Web Guard is a Chrome extension designed to allow users to block or set time limits on specific websites.
+
+## Extension Link:
+The extension will be available in the [Chome Web Store]() (currently unavailable).
 
 ## Project Wiki:
-For details (not limited to) on the below topics please consult the [wiki]():
-- Technologies Used
-- Design Decisions
-- Future Plans
-- Difficulties & Solutions
+For more extensive documentation please consult the project's [wiki](https://github.com/jtd-117/web-guard/wiki).
