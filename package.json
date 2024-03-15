@@ -2,7 +2,7 @@
     "name": "web-guard",
     "version": "1.0.0",
     "description": "Web Guard is a Chrome extension designed to allow users to block or set time limits on specific websites",
-    "main": "index.js",
+    "private": true,
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "webpack"
@@ -11,7 +11,7 @@
     "author": "Jude Thaddeau Data",
     "license": "ISC",
     "devDependencies": {
-    "webpack": "^5.90.3",
-    "webpack-cli": "^5.1.4"
-  }
+        "webpack": "^5.90.3",
+        "webpack-cli": "^5.1.4"
+    }
 }
