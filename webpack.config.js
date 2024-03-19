@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ESLintPlugin = require('eslint-webpack-plugin');
 
 module.exports = {
     mode:'development',
@@ -10,6 +11,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'Web Guard',
         }),
+        new ESLintPlugin(options),
     ],
     module: {
         rules: [
