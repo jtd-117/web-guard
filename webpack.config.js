@@ -1,15 +1,15 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ESLintPlugin = require('eslint-webpack-plugin');
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const ESLintPlugin = require("eslint-webpack-plugin");
 
 module.exports = {
-    mode:'development',
+    mode: "development",
     entry: {
-        main: './src/index.js',
+        main: "./src/index.js",
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Web Guard',
+            title: "Web Guard",
         }),
         new ESLintPlugin(options),
     ],
@@ -23,14 +23,14 @@ module.exports = {
                     // Translates CSS into CommonJS
                     "css-loader",
                     // Compiles Sass to CSS
-                "sass-loader",
+                    "sass-loader",
                 ],
             },
         ],
     },
     output: {
-        filename: 'main.js',
-        path: path.resolve(__dirname, 'dist'),
+        filename: "main.js",
+        path: path.resolve(__dirname, "dist"),
         clean: true,
     },
 };
