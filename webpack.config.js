@@ -11,7 +11,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: "Web Guard",
         }),
-        new ESLintPlugin(options),
+        new ESLintPlugin(),
     ],
     module: {
         rules: [
