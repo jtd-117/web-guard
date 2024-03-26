@@ -1,0 +1,6 @@
+{
+    "manifest_version": 3,
+    "name": "Web Guard",
+    "description": "Lets users to set time limits on, or block specified websites",
+    "version": "1.0"
+}
