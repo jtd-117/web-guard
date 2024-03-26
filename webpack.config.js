@@ -7,6 +7,7 @@ module.exports = {
     entry: {
         main: "./src/index.js",
     },
+    devtool: 'inline-source-map',
     plugins: [
         new HtmlWebpackPlugin({
             title: "Web Guard",
