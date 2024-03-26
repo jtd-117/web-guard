@@ -5,7 +5,10 @@ const ESLintPlugin = require("eslint-webpack-plugin");
 module.exports = {
     mode: "development",
     entry: {
-        main: "./src/index.js",
+        background: "./src/background/background.js",
+        content_script:  "./src/content_script/content_script.js",
+        options:  "./src/options/options.js",
+        popup:  "./src/popup/popup.js",
     },
     devtool: 'inline-source-map',
     devServer: {
@@ -33,7 +36,7 @@ module.exports = {
         ],
     },
     output: {
-        filename: "main.js",
+        filename: "[name].js",
         path: path.resolve(__dirname, "dist"),
         clean: true,
     },
