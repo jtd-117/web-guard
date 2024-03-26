@@ -5,6 +5,7 @@
     "private": true,
     "scripts": {
         "build": "webpack",
+        "start": "webpack serve --open",
         "lint": "eslint 'src/**/*.js'",
         "format": "prettier --write 'src/**/*.js'",
         "test": "jest",
@@ -29,6 +30,7 @@
         "sass-loader": "^14.1.1",
         "style-loader": "^3.3.4",
         "webpack": "^5.90.3",
-        "webpack-cli": "^5.1.4"
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.0.4"
     }
 }

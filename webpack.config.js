@@ -8,6 +8,9 @@ module.exports = {
         main: "./src/index.js",
     },
     devtool: 'inline-source-map',
+    devServer: {
+        static: './dist',
+    },
     plugins: [
         new HtmlWebpackPlugin({
             title: "Web Guard",
