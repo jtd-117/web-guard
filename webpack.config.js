@@ -7,7 +7,7 @@ module.exports = {
     mode: "development",
     entry: {
         background: "./src/background/background.js",
-        content_script:  "./src/content_script/content_script.js",
+        content_script:  "./src/content-script/content-script.js",
         options:  "./src/options/options.js",
         popup:  "./src/popup/popup.js",
     },
