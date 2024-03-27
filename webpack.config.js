@@ -21,6 +21,16 @@ module.exports = {
                 { from: './src/manifest.json', to: './manifest.json' }
             ],
         }),
+        new HtmlWebpackPlugin({
+            template: 'src/popup/popup.html',
+            filename: 'popup.html',
+            chunks: ['popup'],
+        }),
+        new HtmlWebpackPlugin({
+            template: 'src/options/options.html',
+            filename: 'options.html',
+            chunks: ['options'],
+        }),
         new ESLintPlugin(),
     ],
     module: {
