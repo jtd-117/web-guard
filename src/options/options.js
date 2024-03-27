@@ -3,3 +3,5 @@
  * @description
  * @author          Jude Thaddeau Data
  */
+
+import './options.scss';
